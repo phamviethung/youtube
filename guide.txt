@@ -1,0 +1,15 @@
+A. Requirements
+- geckodriver (by: brew install geckodriver)
+- selenium
+B. Config
+- Change the WORKING_DIR to yours (example: '/Users/hungpv/' for Mac or '/home/hungpv/' for Linux)
+- URL_LIST: this is list of url you want to crawl comments. example:
+https://www.youtube.com/watch?v=8BAdhoeabUM
+https://www.youtube.com/watch?v=5WN19l18Eo8
+- MAX_TOTAL_ITEMS: this is number of comments you want to crawl (default: 100)
+C. Run
+- run program by: python main.py
+D. Result
+- in folder youtube you will see some text files, 1 file for each url, name of file is name of url. example:
+https://www.youtube.com/watch?v=8BAdhoeabUM will has name: 8BAdhoeabUM
+https://www.youtube.com/watch?v=5WN19l18Eo8 will has name: 5WN19l18Eo8
